@@ -5,8 +5,8 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
 
-object Main extends App{
-  override def main(args: Array[String]): Unit = {
+object Main {
+  def main(args: Array[String]): Unit = {
     //println("Hello world!")
 
     Logger.getLogger("org").setLevel(Level.ERROR)
