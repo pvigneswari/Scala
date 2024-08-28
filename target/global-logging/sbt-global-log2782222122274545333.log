@@ -1,0 +1,115 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\vigup\AppData\Local\Temp\idea2.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\vigup\AppData\Local\Temp\idea2.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.5 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 152.3685ms
+[debug]           Load.loadUnit: plugins took 118.4703ms
+[debug]           Load.loadUnit: defsScala took 0.8574ms
+[debug] [Loading] Scanning directory C:\Users\vigup\IdeaProjects\SparkDemoJul\project
+[debug]             Load.loadUnit: mkEval took 10.73ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vigup\IdeaProjects\SparkDemoJul\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.5617 ms
+[info] loading settings for project sparkdemojul-build from plugins.sbt,idea2.sbt ...
+[debug]               Load.resolveProject(sparkdemojul-build) took 48.2974ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sparkdemojul-build, base: C:\Users\vigup\IdeaProjects\SparkDemoJul\project, plugins: List(<none>))) took 89.6593ms
+[debug] [Loading] Done in C:\Users\vigup\IdeaProjects\SparkDemoJul\project, returning: (sparkdemojul-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 565.5456ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.7373ms
+[debug]         Load.loadUnit(file:/C:/Users/vigup/IdeaProjects/SparkDemoJul/project/, ...) took 696.8255ms
+[debug]       Load.apply: load took 846.651ms
+[debug]       Load.apply: resolveProjects took 7.3427ms
+[debug]       Load.apply: finalTransforms took 108.703ms
+[debug]       Load.apply: config.delegates took 6.1787ms
+[debug]       Load.apply: Def.make(settings)... took 412.4421ms
+[debug]       Load.apply: structureIndex took 124.5714ms
+[debug]       Load.apply: mkStreams took 2.3507ms
+[info] loading project definition from C:\Users\vigup\IdeaProjects\SparkDemoJul\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2545.5515ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\vigup\IdeaProjects\SparkDemoJul
+[debug]       Load.loadUnit: mkEval took 0.1988ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.9757 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 23.4178ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\vigup\IdeaProjects\SparkDemoJul, plugins: List(<none>))) took 28.0026ms
+[debug] [Loading] Done in C:\Users\vigup\IdeaProjects\SparkDemoJul, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 139.0826ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.6847ms
+[debug]   Load.loadUnit(file:/C:/Users/vigup/IdeaProjects/SparkDemoJul/, ...) took 2689.6129ms
+[debug] Load.apply: load took 2712.5829ms
+[debug] Load.apply: resolveProjects took 0.1309ms
+[debug] Load.apply: finalTransforms took 41.6207ms
+[debug] Load.apply: config.delegates took 0.3235ms
+[debug] Load.apply: Def.make(settings)... took 122.3275ms
+[debug] Load.apply: structureIndex took 35.1826ms
+[debug] Load.apply: mkStreams took 0.0027ms
+[info] set current project to SparkDemoJul (in build file:/C:/Users/vigup/IdeaProjects/SparkDemoJul/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * root / idePackagePrefix
+[warn]   +- C:\Users\vigup\IdeaProjects\SparkDemoJul\build.sbt:34
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63511 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63511, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to SparkDemoJul (in build file:/C:/Users/vigup/IdeaProjects/SparkDemoJul/)
+[debug] > Exec(idea-shell, None, None)
